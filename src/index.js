@@ -12,7 +12,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import {BrowserRouter} from 'react-router-dom';
 import {Routes,Route} from 'react-router-dom';
 import Nav from './components/Nav';
-
+import Chart from './components/Chart'
 
 
 ReactDOM.render(
@@ -21,7 +21,8 @@ ReactDOM.render(
   
   <div className="row g-0" >
   <div className="col-md-11 col-sm-8" >
-  <Routes>  
+  <Routes>
+  <Route path="/chart" element={<Chart />} />  
   <Route path="/" element={<App />} />
   <Route path="*" element={<App />} />
   </Routes>

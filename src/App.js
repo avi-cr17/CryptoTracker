@@ -37,10 +37,10 @@ function App() {
   const [r,setR]=useState('3');
 
   return (
-    <div className="row g-0" ref={el=> app=el}>
+    <div className="row g-0 h-100 w-100" ref={el=> app=el}>
       <div className="col-12 images " >
       
-      <div className="h-100 w-100 row g-0"  >
+      <div className=" row g-0"  >
 
       <img src={left} className={`img col-md-`+l +` col-sm-8`} 
        ref={el=> leftimg=el} 

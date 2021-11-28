@@ -1,8 +1,9 @@
-.example::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 
 body {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -35,7 +36,7 @@ code {
 }
 
 .images {
-  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
   height: 100vh;
   width: 100%;
 }
@@ -55,4 +56,35 @@ code {
 .navbox {
   height: 33%;
   width: 100%;
+}
+
+.chart {
+  height: 60vh;
+  width: 60vw;
+}
+
+.detail {
+  height: 30vh;
+  width: 60vw;
+  background-color: whitesmoke;
+  border-radius: 25px;
+  border: 2px solid red;
+}
+
+.card {
+  height: 8vh;
+  width: 24vw;
+  background-color: seashell;
+}
+
+.card:hover {
+  background-color: lightcyan;
+}
+
+.card-div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
