@@ -38,11 +38,11 @@ function App() {
 
   return (
     <div className="row g-0" ref={el=> app=el}>
-      <div className="col-11 images " >
+      <div className="col-12 images " >
       
       <div className="h-100 w-100 row g-0"  >
 
-      <img src={left} className={`img col-`+l} 
+      <img src={left} className={`img col-md-`+l +` col-sm-8`} 
        ref={el=> leftimg=el} 
       onMouseEnter={()=>{
         setL('4');
@@ -57,7 +57,7 @@ function App() {
       }}
       
       />
-      <img src={center} className={`img col-`+c}
+      <img src={center} className={`img col-md-`+c +` col-sm-8`}
        ref={el=> centerimg=el}
       onMouseEnter={()=>{
         setL('2');
@@ -71,7 +71,7 @@ function App() {
 
       }}
       />
-      <img src={right} className={`img col-`+r}
+      <img src={right} className={`img2 col-md-`+r +` col-sm-8`}
        ref={el=> rightimg=el}
       onMouseEnter={()=>{
         setL('2');
@@ -92,9 +92,7 @@ function App() {
 
       </div>
 
-      <div className="col-1 navbar" >
-        <Nav  />  
-      </div>
+      
       
       
     </div>
