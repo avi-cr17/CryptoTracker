@@ -88,3 +88,29 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+.detail-name {
+  font-weight: 1000%;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 400%;
+}
+
+.change {
+  border-radius: 7%;
+  padding: 1%;
+}
+
+.link {
+  color: black;
+}
+
+.success {
+  background-color: #22cb5c;
+}
+
+.danger {
+  background-color: #eb4d4b;
+}

@@ -3,13 +3,20 @@ import Nav from './components/Nav';
 import center from './collection/center.png'
 import left from './collection/left.jpg'
 import right from './collection/right.jpg'
-import {useEffect, useRef, useState} from 'react';
+import {useEffect, useRef, useState } from 'react';
 
 import {TweenMax,Power3} from 'gsap'
 import { TimelineLite } from 'gsap/gsap-core';
+import {useNavigate} from 'react-router-dom';
+
 
 
 function App() {
+
+  const navigate = useNavigate();
+  const centerImageClick=()=>{
+  navigate('/chart');
+  }
 
   let app = useRef(null);
   let leftimg = useRef(null);
@@ -69,8 +76,10 @@ function App() {
         setC('6');
         setR('3');
 
-      }}
+      }} 
+      onClick={centerImageClick}
       />
+      
       <img src={right} className={`img2 col-md-`+r +` col-sm-8`}
        ref={el=> rightimg=el}
       onMouseEnter={()=>{

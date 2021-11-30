@@ -11,7 +11,7 @@ async function getData (){
     .get('https://api.coingecko.com/api/v3/coins/'+ coins[coin])
     .then(res =>{
     data = [...data,res.data];
-    console.log(coin);
+    //console.log(coin);
     })
     .catch(error =>{
     console.log(error)
