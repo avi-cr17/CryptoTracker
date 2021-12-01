@@ -1,5 +1,5 @@
 import './App.css';
-import Nav from './components/Nav';
+
 import center from './collection/center.png'
 import left from './collection/left.jpg'
 import right from './collection/right.jpg'
