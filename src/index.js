@@ -1,13 +1,14 @@
 import React from 'react';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 
 import reportWebVitals from './reportWebVitals';
 import App from './App';
 
 import ReactDOM from 'react-dom';
-import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+
 import 'font-awesome/css/font-awesome.min.css';
 
 import {BrowserRouter} from 'react-router-dom';
