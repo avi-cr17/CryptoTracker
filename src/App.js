@@ -1,5 +1,4 @@
 import './App.css';
-import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 import center from './collection/center.png'

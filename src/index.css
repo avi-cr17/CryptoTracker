@@ -114,3 +114,18 @@ code {
 .danger {
   background-color: #eb4d4b;
 }
+
+.col-md-11 {
+  width: 92%;
+}
+.col-sm-8 {
+  width: 65%;
+}
+
+.col-md-1 {
+  width: 7%;
+}
+
+.col-sm-4 {
+  width: 32%;
+}
