@@ -54,6 +54,11 @@ const Chart = () => {
                             locale="in"
                             interval = 'H'
                             autosize="true"
+                            timezone="Asia/Kolkata"
+                            container_id= "tradingview_22ae3"
+                            hide_side_toolbar= {false}
+                            allow_symbol_change= {true}
+                            container_id ="tradingview_0a70a"
                         /> 
                         </div>
                         <Detail data={detaildata} />
