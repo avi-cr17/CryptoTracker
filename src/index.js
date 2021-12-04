@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -22,15 +22,15 @@ ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>
   
-  <div className="row g-0" >
-  <div className="col-md-11 col-sm-8" >
+  <div className="row g-0 no-gutters" >
+  <div className="col-md-11 col-sm-8 no-gutters" >
   <Routes>
   <Route path="/chart" element={<Chart />} />  
   <Route path="/" element={<App />} />
   <Route path="*" element={<App />} />
   </Routes>
   </div>
-      <div className="col-md-1 navbar d-none d-md-block d-xl " >
+      <div className="col-md-1 navbar d-none d-md-block d-xl" >
         <Nav  />  
       </div>
 

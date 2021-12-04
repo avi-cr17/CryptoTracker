@@ -27,15 +27,17 @@ const Chart = () => {
 
 
     return (
-        <div className="conatiner row " >
+        <div className=" row w-100 h-100" >
 
             
 
-                        <div className="col m-3">
+                        <div className="col-3 ml-4  mt-2 mr-3 w-100">
 
                         {data.map( obj => (
                             
-                            <Card name={obj.name} 
+                            <Card
+                            className="w-100" 
+                            name={obj.name} 
                             price={obj.market_data.current_price.inr} 
                             change={obj.market_data.price_change_percentage_24h}
                             onClick={()=>{setDetaildata(obj);
@@ -46,8 +48,8 @@ const Chart = () => {
 
                         </div>
 
-                        <div className="col ml-2">
-                        <div className="chart m-3 ">
+                        <div className="col-8 right h-100 ">
+                        <div className="chart mt-3 ">
                         <TradingViewWidget 
                             symbol={symbol}
                             theme={Themes.DARK}

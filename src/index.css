@@ -12,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   overflow-y: hidden;
+  position: relative;
 }
 
 html {
@@ -59,13 +60,13 @@ code {
 }
 
 .chart {
-  height: 60vh;
-  width: 60vw;
+  height: 60%;
+  width: 110%;
 }
 
 .detail {
   height: 30vh;
-  width: 60vw;
+  width: 110%;
   background-color: whitesmoke;
   border-radius: 25px;
   border: 2px solid red;
@@ -73,7 +74,6 @@ code {
 
 .card {
   height: 8vh;
-  width: 24vw;
   background-color: seashell;
 }
 
@@ -83,10 +83,6 @@ code {
 
 .card-div {
   height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .detail-name {
@@ -115,17 +111,13 @@ code {
   background-color: #eb4d4b;
 }
 
-.col-md-11 {
-  width: 92%;
+.card-name {
+  height: 100%;
+  width: 40%;
 }
-.col-sm-8 {
-  width: 65%;
+.card-price {
+  width: 30%;
 }
-
-.col-md-1 {
-  width: 7%;
-}
-
-.col-sm-4 {
-  width: 32%;
+.card-change {
+  width: 30%;
 }

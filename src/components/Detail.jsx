@@ -36,7 +36,7 @@ const Detail = ({data}) => {
 
     return (
 
-        <div className="detail m-3 row">
+        <div className="detail mt-3 mb-3 mr-3 ml-2 row">
             <div className='col-4 conatiner m-2 text-center'>
                 <h1 className='h-25 detail-name'>{data.name}</h1>
                 <div  className='d-flex h-25 justify-content-center'>
@@ -49,12 +49,12 @@ const Detail = ({data}) => {
                     <p className="price">{price}</p>
                     <h1 className={"change "+ ((parseFloat(change)>0)? "success":"danger")}> {change}</h1>
                 </div>
-                <div className="row h-75"> 
-                <div className="d-flex justify-content-between align-items-end h-50">
+                <div className="row h-75 "> 
+                <div className="d-flex justify-content-between align-items-end h-50 w-100">
                     <h5 className="">{dayhigh}</h5>
                     <h5 className="">{weekchange}</h5>
                 </div>
-                <div className="h-75 d-flex justify-content-between align-items-start h-25 ">
+                <div className="h-75 d-flex justify-content-between align-items-start h-25 w-100">
                     <h5 className="">{daylow}</h5>
                     <h5 className="">{monthchange}</h5>
                 </div>
