@@ -37,14 +37,14 @@ const Detail = ({data}) => {
     return (
 
         <div className="detail mt-3 mb-3 mr-3 ml-2 row">
-            <div className='col-4 conatiner m-2 text-center'>
-                <h1 className='h-25 detail-name'>{data.name}</h1>
+            <div className='col-lg-4 conatiner  mt-2 text-center col-md-2 col-sm-1 '>
+                <h1 className='h-25 detail-name mb-4'>{data.name}</h1>
                 <div  className='d-flex h-25 justify-content-center'>
-                <img src={img} />
+                <img src={img} className='img-detail'/>
                 </div>
             </div>
         
-            <div className='col-7 conatiner ml-5 mt-3 text-center h-100 '>
+            <div className='col-lg-7 conatiner ml-5 mt-3 text-center h-100 col-md-1 col-sm-3'>
                 <div className="h-25 d-flex justify-content-between align-items-center ">
                     <p className="price">{price}</p>
                     <h1 className={"change "+ ((parseFloat(change)>0)? "success":"danger")}> {change}</h1>

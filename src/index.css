@@ -91,7 +91,7 @@ code {
 }
 
 .price {
-  font-size: 400%;
+  font: 4vw sans-serif;
 }
 
 .change {
@@ -120,4 +120,25 @@ code {
 }
 .card-change {
   width: 30%;
+}
+
+h1 {
+  font: 3vw sans-serif;
+}
+
+h5 {
+  font: 1.2vw sans-serif;
+}
+
+h6 {
+  font: 1vw sans-serif;
+}
+
+h4 {
+  font: 1.4vw -apple-system;
+}
+
+.img-detail {
+  height: 12vh;
+  width: 6vw;
 }
