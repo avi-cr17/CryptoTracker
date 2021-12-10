@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CryptoTracker/static/css/main.2149cf34.chunk.css",
-    "main.js": "/CryptoTracker/static/js/main.346b061b.chunk.js",
-    "main.js.map": "/CryptoTracker/static/js/main.346b061b.chunk.js.map",
+    "main.js": "/CryptoTracker/static/js/main.e76144f6.chunk.js",
+    "main.js.map": "/CryptoTracker/static/js/main.e76144f6.chunk.js.map",
     "runtime-main.js": "/CryptoTracker/static/js/runtime-main.1a18c074.js",
     "runtime-main.js.map": "/CryptoTracker/static/js/runtime-main.1a18c074.js.map",
     "static/css/2.af53e21c.chunk.css": "/CryptoTracker/static/css/2.af53e21c.chunk.css",
@@ -14,16 +14,16 @@
     "static/css/2.af53e21c.chunk.css.map": "/CryptoTracker/static/css/2.af53e21c.chunk.css.map",
     "static/css/main.2149cf34.chunk.css.map": "/CryptoTracker/static/css/main.2149cf34.chunk.css.map",
     "static/js/2.7311a83a.chunk.js.LICENSE.txt": "/CryptoTracker/static/js/2.7311a83a.chunk.js.LICENSE.txt",
-    "static/media/center.83921eb9.png": "/CryptoTracker/static/media/center.83921eb9.png",
     "static/media/font-awesome.min.css": "/CryptoTracker/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/left.f705cd99.jpg": "/CryptoTracker/static/media/left.f705cd99.jpg",
-    "static/media/right.706fdb0e.jpg": "/CryptoTracker/static/media/right.706fdb0e.jpg"
+    "static/media/img.4c0b352b.png": "/CryptoTracker/static/media/img.4c0b352b.png",
+    "static/media/img4.0d0c0e04.png": "/CryptoTracker/static/media/img4.0d0c0e04.png",
+    "static/media/ing5.99f0d6ea.png": "/CryptoTracker/static/media/ing5.99f0d6ea.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1a18c074.js",
     "static/css/2.af53e21c.chunk.css",
     "static/js/2.7311a83a.chunk.js",
     "static/css/main.2149cf34.chunk.css",
-    "static/js/main.346b061b.chunk.js"
+    "static/js/main.e76144f6.chunk.js"
   ]
 }
