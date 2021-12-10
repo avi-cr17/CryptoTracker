@@ -1,7 +1,7 @@
 
 
 
-import center from './collection/center.png'
+import center from '../public/images/img.png'
 import left from './collection/left.jpg'
 import right from './collection/right.jpg'
 import {useEffect, useRef, useState } from 'react';
