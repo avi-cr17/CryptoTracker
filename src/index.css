@@ -44,14 +44,24 @@ code {
 
 .img {
   height: 100vh;
-  width: 30%;
+
   transition: 1s;
+  background-image: url(../src/collection/ing5.png);
+  background-size: 100% 100%;
 }
 
 .img2 {
   height: 100vh;
-  width: 20%;
+  background-image: url(../src/collection/img.png);
+  background-size: 100% 100%;
   transition: 1s;
+}
+
+.img3 {
+  height: 100vh;
+  background-size: 100% 100%;
+  transition: 1s;
+  background-image: url(../src/collection/img4.png);
 }
 
 .navbox {
@@ -141,4 +151,17 @@ h4 {
 .img-detail {
   height: 12vh;
   width: 6vw;
+}
+
+.svg {
+  margin-left: 45%;
+  margin-top: 10%;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.heading {
+  margin-left: 15%;
+  font-size: 5rem;
+  color: #ff2222;
+  opacity: 0;
 }
