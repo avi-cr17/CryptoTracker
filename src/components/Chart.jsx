@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import Card from './Card';
 import dictonary from '../services/dictonary';
+import _ from 'lodash';
 
 
 
@@ -18,10 +19,17 @@ const Chart = () => {
 
     useEffect(()=>{
 
-        getData().then(data =>{
+        console.log('load');
+        getData().then(data => {
             setData(data);
             setDetaildata(data[0]);
+        });
+        setInterval( ()=>{
+            console.log('load');
+        getData().then(data =>{
+            setData(data);
         })
+    },10000);
         
     },[]);
 
@@ -36,6 +44,7 @@ const Chart = () => {
                         {data.map( obj => (
                             
                             <Card
+
                             className="w-100" 
                             name={obj.name} 
                             price={obj.market_data.current_price.inr} 
@@ -44,6 +53,9 @@ const Chart = () => {
                                           setSymbol(dictonary[obj.name])
                                           console.log(obj)}}
                             />
+
+
+
                         ))}
 
                         </div>

@@ -19,7 +19,7 @@ async function getData (){
     
     }
 
-    console.log(data.length);
+    //console.log(data.length);
 
     return data;
 }
