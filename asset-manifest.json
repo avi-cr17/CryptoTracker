@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/CryptoTracker/static/css/main.3397d778.chunk.css",
-    "main.js": "/CryptoTracker/static/js/main.c37c0e8a.chunk.js",
-    "main.js.map": "/CryptoTracker/static/js/main.c37c0e8a.chunk.js.map",
-    "runtime-main.js": "/CryptoTracker/static/js/runtime-main.1a18c074.js",
-    "runtime-main.js.map": "/CryptoTracker/static/js/runtime-main.1a18c074.js.map",
+    "main.js": "/CryptoTracker/static/js/main.fc415b3f.chunk.js",
+    "main.js.map": "/CryptoTracker/static/js/main.fc415b3f.chunk.js.map",
+    "runtime-main.js": "/CryptoTracker/static/js/runtime-main.ae7e23fa.js",
+    "runtime-main.js.map": "/CryptoTracker/static/js/runtime-main.ae7e23fa.js.map",
     "static/css/2.af53e21c.chunk.css": "/CryptoTracker/static/css/2.af53e21c.chunk.css",
-    "static/js/2.52fca228.chunk.js": "/CryptoTracker/static/js/2.52fca228.chunk.js",
-    "static/js/2.52fca228.chunk.js.map": "/CryptoTracker/static/js/2.52fca228.chunk.js.map",
-    "static/js/3.7f63c006.chunk.js": "/CryptoTracker/static/js/3.7f63c006.chunk.js",
-    "static/js/3.7f63c006.chunk.js.map": "/CryptoTracker/static/js/3.7f63c006.chunk.js.map",
+    "static/js/2.d31a75e5.chunk.js": "/CryptoTracker/static/js/2.d31a75e5.chunk.js",
+    "static/js/2.d31a75e5.chunk.js.map": "/CryptoTracker/static/js/2.d31a75e5.chunk.js.map",
+    "static/js/3.0451c85b.chunk.js": "/CryptoTracker/static/js/3.0451c85b.chunk.js",
+    "static/js/3.0451c85b.chunk.js.map": "/CryptoTracker/static/js/3.0451c85b.chunk.js.map",
     "index.html": "/CryptoTracker/index.html",
     "static/css/2.af53e21c.chunk.css.map": "/CryptoTracker/static/css/2.af53e21c.chunk.css.map",
     "static/css/main.3397d778.chunk.css.map": "/CryptoTracker/static/css/main.3397d778.chunk.css.map",
-    "static/js/2.52fca228.chunk.js.LICENSE.txt": "/CryptoTracker/static/js/2.52fca228.chunk.js.LICENSE.txt",
+    "static/js/2.d31a75e5.chunk.js.LICENSE.txt": "/CryptoTracker/static/js/2.d31a75e5.chunk.js.LICENSE.txt",
     "static/media/font-awesome.min.css": "/CryptoTracker/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/index.css": "/CryptoTracker/static/media/ing5.99f0d6ea.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1a18c074.js",
+    "static/js/runtime-main.ae7e23fa.js",
     "static/css/2.af53e21c.chunk.css",
-    "static/js/2.52fca228.chunk.js",
+    "static/js/2.d31a75e5.chunk.js",
     "static/css/main.3397d778.chunk.css",
-    "static/js/main.c37c0e8a.chunk.js"
+    "static/js/main.fc415b3f.chunk.js"
   ]
 }
